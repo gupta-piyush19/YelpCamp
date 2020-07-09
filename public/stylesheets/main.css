@@ -1,0 +1,29 @@
+img{
+    width : 100%;
+}
+.img-thumbnail{
+    padding : 0;
+    /* border: black 1px solid; */
+
+}
+.img-thumbnail .caption-full{
+    padding: 9px;
+}
+/* .navbar-brand{
+    background: steelblue;
+    border : rgb(34, 40, 97) 1.5px solid;
+    border-radius: 6px;
+    padding : 3px;
+} 
+.navbar{
+    border: black 1px solid;
+}
+.jumbotron{
+    border: black 1px solid;
+} */
+.delete-form{
+    display: inline;
+}
+.card{
+    margin-top: 20px;
+}
