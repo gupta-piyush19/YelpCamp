@@ -49,7 +49,7 @@ app.use(authRoutes);
 app.use("/campground",campgroundRoutes);
 app.use("/campground/:id/comments",commentRoutes);
 
-let port = 8000 || process.env.PORT
-app.listen(port,process.env.IP,function(){
+// let port = 8000 || process.env.PORT
+app.listen(process.env.PORT,process.env.IP,function(){
     console.log("YelpCalm has started on port : 8000");
 });
