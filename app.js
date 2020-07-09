@@ -16,7 +16,7 @@ const   commentRoutes   = require("./routes/comments");
         campgroundRoutes= require("./routes/campgrounds");
         authRoutes      = require("./routes/index");
 
-mongoose.connect("mongodb+srv://shinchan:piyush0_0@yelpcamp.ytcjk.mongodb.net/<dbname>?retryWrites=true&w=majority",{useNewUrlParser: true ,useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect("mongodb+srv://shinchan:abcd1234@yelpcamp.ytcjk.mongodb.net/<dbname>?retryWrites=true&w=majority",{useNewUrlParser: true ,useUnifiedTopology: true, useFindAndModify: false });
 // mongoose.connect("mongodb://localhost/yelp_calmV11" ,{useNewUrlParser: true , useUnifiedTopology: true, useFindAndModify: false });
 
 app.use(express.static(__dirname + "/public"));
