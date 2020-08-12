@@ -8,8 +8,8 @@ const   express         = require('express');
         methodOverride  = require("method-override");
         Campground      = require("./models/campground");
         User            = require("./models/user");
-        seedDB          = require("./seeds");
         Comment         = require("./models/comment");
+        // seedDB          = require("./seeds");
 
 // requiring routes
 const   commentRoutes   = require("./routes/comments");
@@ -22,7 +22,7 @@ const   commentRoutes   = require("./routes/comments");
 // mongoose.connect("mongodb://localhost/yelp_calmV11" ,{useNewUrlParser: true , useUnifiedTopology: true, useFindAndModify: false });
 
 let url = process.env.DATABASEURL || "mongodb://localhost/yelp_calmV11"; // fallback in case global var not working
-mongoose.connect(url, {useMongoClient: true,useNewUrlParser: true , useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect(url, {useNewUrlParser: true , useUnifiedTopology: true, useFindAndModify: false });
 
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended : true}));

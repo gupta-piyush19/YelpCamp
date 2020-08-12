@@ -9,12 +9,16 @@ img{
 .img-thumbnail .caption-full{
     padding: 9px;
 }
-/* .navbar-brand{
-    background: steelblue;
+/*.navbar-brand{
+    background: silver;
     border : rgb(34, 40, 97) 1.5px solid;
     border-radius: 6px;
     padding : 3px;
 } 
+.img-thumbnail{
+    border: black 1px solid;
+
+}
 .navbar{
     border: black 1px solid;
 }
